@@ -17,7 +17,7 @@ def solve():
         except IOError:
             model = PPO('MlpPolicy', env, verbose=True)
             
-        model.learn(10000, callback=CheckpointCallback(1000, 'model'))
+        model.learn(1000000, callback=CheckpointCallback(1000, 'model'))
         evaluate_policy(model, env)
     except (UnityException, UnityGymException):
         solve()
