@@ -1,0 +1,4 @@
+env: Auto-ALS-v0
+max-sprints-without-improvement: 100
+cibi-version: 5
+team: 5
