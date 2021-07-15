@@ -1,3 +1,4 @@
 gym==0.*
 auto-als==1.*
 stable-baselines3==1.*
+click==8.*
